@@ -202,20 +202,3 @@ delete_button.grid(column=2, row=6)
 
 window.mainloop()
 
-# TODO: add delete option DONE
-# TODO: Separate save and update function ****
-# TODO: Refactor:
-#   a) make function for opening, reading and trying json and call when needed def grab_data()
-# TODO: Add update function: DONE
-#     a) check to see if account and email have already been saved DONE
-#     b) As user if they would like to update DONE
-#     c) Allow user to update password from GUI DONE
-# TODO: Add a clear function if len(generate_password) not == 0 DONE
-
-# TODO: Extend the functionality of the search button to include email: DONE
-#   a) if len(email) print a warning that email and website are needed to search
-# TODO: Add View all passwords functionality:
-#  a) open data to pull DONE
-#  b) Try for exceptions of created data DONE
-#  c) serialize data into dict DONE
-#  d) Pretty table of data?  ****
