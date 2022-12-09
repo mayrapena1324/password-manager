@@ -180,7 +180,7 @@ website_entry.focus()
 # Email/Username Entry
 email_username_entry = Entry(width=40)
 email_username_entry.grid(column=1, row=2, columnspan=2)
-email_username_entry.insert(0, string="mayraapena2016@gmail.com")
+email_username_entry.insert(0, string="myemail@gmail.com")
 # Password Entry
 password_entry = Entry(width=23)
 password_entry.grid(column=1, row=3)
